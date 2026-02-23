@@ -1,0 +1,547 @@
+[2026-02-22 14:13:03.673 INF] Now listening on: http://localhost:5290 | cid= sid= | machine=DESKTOP-DMU2IJG tid=1
+[2026-02-22 14:13:03.708 INF] Application started. Press Ctrl+C to shut down. | cid= sid= | machine=DESKTOP-DMU2IJG tid=1
+[2026-02-22 14:13:03.710 INF] Hosting environment: Development | cid= sid= | machine=DESKTOP-DMU2IJG tid=1
+[2026-02-22 14:13:03.711 INF] Content root path: C:\RiotGames\GameOfLife\src\GameofLife.Api | cid= sid= | machine=DESKTOP-DMU2IJG tid=1
+[2026-02-22 14:13:30.641 INF] Tick requested with 1 cells | cid=c4d557fb-a4c6-4b64-864a-7cfa9776e4f2 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:30.650 INF] Tick completed: 1 → 0 cells | cid=c4d557fb-a4c6-4b64-864a-7cfa9776e4f2 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:30.674 INF] HTTP POST /api/v1/game/tick responded 200 in 105.2ms | cid=c4d557fb-a4c6-4b64-864a-7cfa9776e4f2 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:38.527 INF] Parse requested: 144 chars | cid=9fb4f731-7ea9-46cb-8d90-3650dbf9877a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:38.530 INF] Parse completed: 8 cells loaded | cid=9fb4f731-7ea9-46cb-8d90-3650dbf9877a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:38.538 INF] HTTP POST /api/v1/game/parse responded 200 in 19.5ms | cid=9fb4f731-7ea9-46cb-8d90-3650dbf9877a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:38.545 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSO:00000002 sid=unknown | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:38.545 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSN:00000005 sid=unknown | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:38.553 INF] HTTP POST /api/v1/log responded 200 in 34.9ms | cid=0HNJIBUE6MRSO:00000002 sid=unknown | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:38.556 INF] HTTP POST /api/v1/log responded 200 in 11.5ms | cid=0HNJIBUE6MRSN:00000005 sid=unknown | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.073 INF] Tick requested with 8 cells | cid=4c039353-db8f-4c5f-aa64-3a0ca31e69a5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:40.076 INF] Tick completed: 8 → 9 cells | cid=4c039353-db8f-4c5f-aa64-3a0ca31e69a5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:40.079 INF] HTTP POST /api/v1/game/tick responded 200 in 7.2ms | cid=4c039353-db8f-4c5f-aa64-3a0ca31e69a5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:40.273 INF] Tick requested with 9 cells | cid=d75e453c-5e09-4e82-999f-ed8e87dc37f3 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.275 INF] Tick completed: 9 → 9 cells | cid=d75e453c-5e09-4e82-999f-ed8e87dc37f3 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.278 INF] HTTP POST /api/v1/game/tick responded 200 in 5.3ms | cid=d75e453c-5e09-4e82-999f-ed8e87dc37f3 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.483 INF] Tick requested with 9 cells | cid=c0d7190f-024a-4000-8d17-b2853a6e3548 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:40.487 INF] Tick completed: 9 → 9 cells | cid=c0d7190f-024a-4000-8d17-b2853a6e3548 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:40.489 INF] HTTP POST /api/v1/game/tick responded 200 in 6.7ms | cid=c0d7190f-024a-4000-8d17-b2853a6e3548 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:40.679 INF] Tick requested with 9 cells | cid=1da4309b-ba74-48d1-b608-65643eb46bf9 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.682 INF] Tick completed: 9 → 9 cells | cid=1da4309b-ba74-48d1-b608-65643eb46bf9 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.685 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=1da4309b-ba74-48d1-b608-65643eb46bf9 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.884 INF] Tick requested with 9 cells | cid=16105917-2b3c-4635-a627-a419a0afa723 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.887 INF] Tick completed: 9 → 9 cells | cid=16105917-2b3c-4635-a627-a419a0afa723 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:40.889 INF] HTTP POST /api/v1/game/tick responded 200 in 5.3ms | cid=16105917-2b3c-4635-a627-a419a0afa723 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:41.083 INF] Tick requested with 9 cells | cid=e98eff35-1649-46c7-8b88-095398d6de77 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:41.085 INF] Tick completed: 9 → 9 cells | cid=e98eff35-1649-46c7-8b88-095398d6de77 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:41.088 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=e98eff35-1649-46c7-8b88-095398d6de77 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:41.285 INF] Tick requested with 9 cells | cid=8f77d9de-70a3-4664-819c-baecbf36581a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.288 INF] Tick completed: 9 → 9 cells | cid=8f77d9de-70a3-4664-819c-baecbf36581a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.291 INF] HTTP POST /api/v1/game/tick responded 200 in 6.9ms | cid=8f77d9de-70a3-4664-819c-baecbf36581a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.479 INF] Tick requested with 9 cells | cid=86befcf6-2733-4cbd-a749-8d9d5dc86a3a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.482 INF] Tick completed: 9 → 9 cells | cid=86befcf6-2733-4cbd-a749-8d9d5dc86a3a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.485 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=86befcf6-2733-4cbd-a749-8d9d5dc86a3a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.683 INF] Tick requested with 9 cells | cid=f6d1c981-a7ef-4230-9de0-a01559b4a7ba sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.686 INF] Tick completed: 9 → 9 cells | cid=f6d1c981-a7ef-4230-9de0-a01559b4a7ba sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.689 INF] HTTP POST /api/v1/game/tick responded 200 in 6.0ms | cid=f6d1c981-a7ef-4230-9de0-a01559b4a7ba sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:41.881 INF] Tick requested with 9 cells | cid=8f1f1536-136e-4519-88b1-afe7cba92def sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:41.884 INF] Tick completed: 9 → 9 cells | cid=8f1f1536-136e-4519-88b1-afe7cba92def sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:41.886 INF] HTTP POST /api/v1/game/tick responded 200 in 6.0ms | cid=8f1f1536-136e-4519-88b1-afe7cba92def sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.070 INF] Tick requested with 9 cells | cid=699aeb2c-8798-4df2-a82c-3225c0db50dc sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.072 INF] Tick completed: 9 → 9 cells | cid=699aeb2c-8798-4df2-a82c-3225c0db50dc sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.074 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=699aeb2c-8798-4df2-a82c-3225c0db50dc sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.270 INF] Tick requested with 9 cells | cid=3ca9fdd8-58fc-47d2-9768-7d92d2fef484 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.272 INF] Tick completed: 9 → 9 cells | cid=3ca9fdd8-58fc-47d2-9768-7d92d2fef484 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.275 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=3ca9fdd8-58fc-47d2-9768-7d92d2fef484 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.470 INF] Tick requested with 9 cells | cid=9397350b-ba85-44e1-8c21-d186679fac23 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:42.473 INF] Tick completed: 9 → 9 cells | cid=9397350b-ba85-44e1-8c21-d186679fac23 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:42.475 INF] HTTP POST /api/v1/game/tick responded 200 in 5.8ms | cid=9397350b-ba85-44e1-8c21-d186679fac23 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:42.685 INF] Tick requested with 9 cells | cid=6849090e-a293-42be-af39-60dac3257389 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.689 INF] Tick completed: 9 → 9 cells | cid=6849090e-a293-42be-af39-60dac3257389 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.690 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=6849090e-a293-42be-af39-60dac3257389 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.870 INF] Tick requested with 9 cells | cid=d7e3a27f-9432-4651-b9c6-21a69e798f6b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.872 INF] Tick completed: 9 → 9 cells | cid=d7e3a27f-9432-4651-b9c6-21a69e798f6b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:42.874 INF] HTTP POST /api/v1/game/tick responded 200 in 4.6ms | cid=d7e3a27f-9432-4651-b9c6-21a69e798f6b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:43.070 INF] Tick requested with 9 cells | cid=f3314d3f-638a-4c56-abc4-ab925c63d602 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.073 INF] Tick completed: 9 → 9 cells | cid=f3314d3f-638a-4c56-abc4-ab925c63d602 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.076 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=f3314d3f-638a-4c56-abc4-ab925c63d602 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.270 INF] Tick requested with 9 cells | cid=801d5545-abb5-4e48-b52c-be40959f1fd5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.273 INF] Tick completed: 9 → 9 cells | cid=801d5545-abb5-4e48-b52c-be40959f1fd5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.275 INF] HTTP POST /api/v1/game/tick responded 200 in 5.1ms | cid=801d5545-abb5-4e48-b52c-be40959f1fd5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.470 INF] Tick requested with 9 cells | cid=a827a819-bde0-4fb1-b951-68431d0f3705 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.473 INF] Tick completed: 9 → 9 cells | cid=a827a819-bde0-4fb1-b951-68431d0f3705 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.475 INF] HTTP POST /api/v1/game/tick responded 200 in 5.5ms | cid=a827a819-bde0-4fb1-b951-68431d0f3705 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.670 INF] Tick requested with 9 cells | cid=7768e41d-ac1d-4e9e-93ee-6be8f6b9a6b9 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.674 INF] Tick completed: 9 → 9 cells | cid=7768e41d-ac1d-4e9e-93ee-6be8f6b9a6b9 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.676 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=7768e41d-ac1d-4e9e-93ee-6be8f6b9a6b9 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.870 INF] Tick requested with 9 cells | cid=743d4806-deff-4e4b-966a-bb6132c71466 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.873 INF] Tick completed: 9 → 9 cells | cid=743d4806-deff-4e4b-966a-bb6132c71466 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:43.875 INF] HTTP POST /api/v1/game/tick responded 200 in 5.2ms | cid=743d4806-deff-4e4b-966a-bb6132c71466 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.070 INF] Tick requested with 9 cells | cid=5d9c8168-a00a-499b-a09d-176e8c8a50f4 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:44.074 INF] Tick completed: 9 → 9 cells | cid=5d9c8168-a00a-499b-a09d-176e8c8a50f4 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:44.076 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=5d9c8168-a00a-499b-a09d-176e8c8a50f4 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:44.270 INF] Tick requested with 9 cells | cid=2bbc191a-f677-4f4e-9ac1-1d477408c9bb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.274 INF] Tick completed: 9 → 9 cells | cid=2bbc191a-f677-4f4e-9ac1-1d477408c9bb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.276 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=2bbc191a-f677-4f4e-9ac1-1d477408c9bb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.472 INF] Tick requested with 9 cells | cid=712b0717-3405-49bc-bd33-114a559e9b61 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.474 INF] Tick completed: 9 → 9 cells | cid=712b0717-3405-49bc-bd33-114a559e9b61 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.476 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=712b0717-3405-49bc-bd33-114a559e9b61 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:44.672 INF] Tick requested with 9 cells | cid=384f508e-8fbd-4b3c-bf9e-9ca750dd442a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:44.674 INF] Tick completed: 9 → 9 cells | cid=384f508e-8fbd-4b3c-bf9e-9ca750dd442a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:44.676 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=384f508e-8fbd-4b3c-bf9e-9ca750dd442a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:44.872 INF] Tick requested with 9 cells | cid=2985c9c3-9656-4e19-bacb-bea058357d63 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:44.875 INF] Tick completed: 9 → 9 cells | cid=2985c9c3-9656-4e19-bacb-bea058357d63 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:44.877 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=2985c9c3-9656-4e19-bacb-bea058357d63 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.073 INF] Tick requested with 9 cells | cid=2160b73e-324c-4657-a4ea-2f73c3318e9a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.076 INF] Tick completed: 9 → 9 cells | cid=2160b73e-324c-4657-a4ea-2f73c3318e9a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.078 INF] HTTP POST /api/v1/game/tick responded 200 in 4.9ms | cid=2160b73e-324c-4657-a4ea-2f73c3318e9a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.270 INF] Tick requested with 9 cells | cid=76350746-a5b9-4cf6-b246-2a117004b271 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.274 INF] Tick completed: 9 → 9 cells | cid=76350746-a5b9-4cf6-b246-2a117004b271 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.275 INF] HTTP POST /api/v1/game/tick responded 200 in 6.0ms | cid=76350746-a5b9-4cf6-b246-2a117004b271 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.473 INF] Tick requested with 9 cells | cid=22fe538a-7173-4a53-8184-d797c75d41e1 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.476 INF] Tick completed: 9 → 9 cells | cid=22fe538a-7173-4a53-8184-d797c75d41e1 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.478 INF] HTTP POST /api/v1/game/tick responded 200 in 6.2ms | cid=22fe538a-7173-4a53-8184-d797c75d41e1 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:45.671 INF] Tick requested with 9 cells | cid=52484ae0-a0b5-4e64-886d-41f93bc2f8d7 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:45.674 INF] Tick completed: 9 → 9 cells | cid=52484ae0-a0b5-4e64-886d-41f93bc2f8d7 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:45.677 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=52484ae0-a0b5-4e64-886d-41f93bc2f8d7 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:45.873 INF] Tick requested with 9 cells | cid=73f75d7c-4e89-4d96-a879-1c8113a753c3 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:45.875 INF] Tick completed: 9 → 9 cells | cid=73f75d7c-4e89-4d96-a879-1c8113a753c3 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:45.877 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=73f75d7c-4e89-4d96-a879-1c8113a753c3 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.072 INF] Tick requested with 9 cells | cid=c403168b-b157-409d-86b0-1adb9ad7301b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.074 INF] Tick completed: 9 → 9 cells | cid=c403168b-b157-409d-86b0-1adb9ad7301b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.076 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=c403168b-b157-409d-86b0-1adb9ad7301b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.285 INF] Tick requested with 9 cells | cid=8bae662c-ec2e-4be3-a438-79fd17fb7c60 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.288 INF] Tick completed: 9 → 9 cells | cid=8bae662c-ec2e-4be3-a438-79fd17fb7c60 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.290 INF] HTTP POST /api/v1/game/tick responded 200 in 5.0ms | cid=8bae662c-ec2e-4be3-a438-79fd17fb7c60 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:46.480 INF] Tick requested with 9 cells | cid=64b6bc48-6a25-49b3-b225-485620e54e49 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:46.483 INF] Tick completed: 9 → 9 cells | cid=64b6bc48-6a25-49b3-b225-485620e54e49 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:46.485 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=64b6bc48-6a25-49b3-b225-485620e54e49 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:46.673 INF] Tick requested with 9 cells | cid=24ee2cdc-a577-4083-8a56-b310ef6a6adb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:46.676 INF] Tick completed: 9 → 9 cells | cid=24ee2cdc-a577-4083-8a56-b310ef6a6adb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:46.680 INF] HTTP POST /api/v1/game/tick responded 200 in 6.7ms | cid=24ee2cdc-a577-4083-8a56-b310ef6a6adb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:46.869 INF] Tick requested with 9 cells | cid=7b62a2b9-17c6-4843-8d0a-650e43e75fdb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:46.871 INF] Tick completed: 9 → 9 cells | cid=7b62a2b9-17c6-4843-8d0a-650e43e75fdb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:46.875 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=7b62a2b9-17c6-4843-8d0a-650e43e75fdb sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.073 INF] Tick requested with 9 cells | cid=774e42d9-a14a-44f8-aa8a-95a9f1cce65f sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.075 INF] Tick completed: 9 → 9 cells | cid=774e42d9-a14a-44f8-aa8a-95a9f1cce65f sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.077 INF] HTTP POST /api/v1/game/tick responded 200 in 4.2ms | cid=774e42d9-a14a-44f8-aa8a-95a9f1cce65f sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.271 INF] Tick requested with 9 cells | cid=1ceb4551-62eb-476d-88ec-3a74b62ddf2c sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:47.275 INF] Tick completed: 9 → 9 cells | cid=1ceb4551-62eb-476d-88ec-3a74b62ddf2c sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:47.276 INF] HTTP POST /api/v1/game/tick responded 200 in 5.1ms | cid=1ceb4551-62eb-476d-88ec-3a74b62ddf2c sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:47.474 INF] Tick requested with 9 cells | cid=b3c03906-cbcd-413f-9dce-f1c3cffce9c8 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.477 INF] Tick completed: 9 → 9 cells | cid=b3c03906-cbcd-413f-9dce-f1c3cffce9c8 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.479 INF] HTTP POST /api/v1/game/tick responded 200 in 5.0ms | cid=b3c03906-cbcd-413f-9dce-f1c3cffce9c8 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.674 INF] Tick requested with 9 cells | cid=d46437b4-8348-40e3-8ab3-c08e34c01d09 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.677 INF] Tick completed: 9 → 9 cells | cid=d46437b4-8348-40e3-8ab3-c08e34c01d09 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.679 INF] HTTP POST /api/v1/game/tick responded 200 in 4.5ms | cid=d46437b4-8348-40e3-8ab3-c08e34c01d09 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.874 INF] Tick requested with 9 cells | cid=455170ab-97f9-4c1d-9cf9-e615a4ec11fa sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.878 INF] Tick completed: 9 → 9 cells | cid=455170ab-97f9-4c1d-9cf9-e615a4ec11fa sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:47.880 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=455170ab-97f9-4c1d-9cf9-e615a4ec11fa sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.072 INF] Tick requested with 9 cells | cid=ece3759e-f701-42d3-a75d-66859a9c1105 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.074 INF] Tick completed: 9 → 9 cells | cid=ece3759e-f701-42d3-a75d-66859a9c1105 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.076 INF] HTTP POST /api/v1/game/tick responded 200 in 4.7ms | cid=ece3759e-f701-42d3-a75d-66859a9c1105 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.274 INF] Tick requested with 9 cells | cid=ad8a3752-86bb-4772-813a-7550c38b7206 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:48.278 INF] Tick completed: 9 → 9 cells | cid=ad8a3752-86bb-4772-813a-7550c38b7206 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:48.280 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=ad8a3752-86bb-4772-813a-7550c38b7206 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:48.475 INF] Tick requested with 9 cells | cid=3ee9e712-ea9f-4bfc-9d66-06c618a5d276 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:48.479 INF] Tick completed: 9 → 9 cells | cid=3ee9e712-ea9f-4bfc-9d66-06c618a5d276 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:48.481 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=3ee9e712-ea9f-4bfc-9d66-06c618a5d276 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:48.675 INF] Tick requested with 9 cells | cid=912db990-0171-49e9-b7b7-17fcb52693b4 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.678 INF] Tick completed: 9 → 9 cells | cid=912db990-0171-49e9-b7b7-17fcb52693b4 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.681 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=912db990-0171-49e9-b7b7-17fcb52693b4 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.872 INF] Tick requested with 9 cells | cid=263d0d93-d731-48fc-af58-d51c3a6fbb97 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.875 INF] Tick completed: 9 → 9 cells | cid=263d0d93-d731-48fc-af58-d51c3a6fbb97 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:48.877 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=263d0d93-d731-48fc-af58-d51c3a6fbb97 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.070 INF] Tick requested with 9 cells | cid=52b6da00-aa42-4ff6-add7-d14af6e08446 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.071 INF] Tick completed: 9 → 9 cells | cid=52b6da00-aa42-4ff6-add7-d14af6e08446 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.073 INF] HTTP POST /api/v1/game/tick responded 200 in 3.7ms | cid=52b6da00-aa42-4ff6-add7-d14af6e08446 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.272 INF] Tick requested with 9 cells | cid=756e2db1-8c10-42cc-ad22-4d1f96366579 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.274 INF] Tick completed: 9 → 9 cells | cid=756e2db1-8c10-42cc-ad22-4d1f96366579 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.277 INF] HTTP POST /api/v1/game/tick responded 200 in 5.8ms | cid=756e2db1-8c10-42cc-ad22-4d1f96366579 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.471 INF] Tick requested with 9 cells | cid=25ac0341-b3c8-48f3-8409-7316e6424107 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.474 INF] Tick completed: 9 → 9 cells | cid=25ac0341-b3c8-48f3-8409-7316e6424107 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.477 INF] HTTP POST /api/v1/game/tick responded 200 in 6.1ms | cid=25ac0341-b3c8-48f3-8409-7316e6424107 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:49.671 INF] Tick requested with 9 cells | cid=ce9f029d-14bb-4895-b4d2-851be57e18a2 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:49.674 INF] Tick completed: 9 → 9 cells | cid=ce9f029d-14bb-4895-b4d2-851be57e18a2 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:49.676 INF] HTTP POST /api/v1/game/tick responded 200 in 5.2ms | cid=ce9f029d-14bb-4895-b4d2-851be57e18a2 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:49.872 INF] Tick requested with 9 cells | cid=49195600-5442-4d36-9c3e-10526a31b29e sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:49.875 INF] Tick completed: 9 → 9 cells | cid=49195600-5442-4d36-9c3e-10526a31b29e sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:49.877 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=49195600-5442-4d36-9c3e-10526a31b29e sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.076 INF] Tick requested with 9 cells | cid=06439357-1b09-4ac1-8b32-fc28fb82719d sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.079 INF] Tick completed: 9 → 9 cells | cid=06439357-1b09-4ac1-8b32-fc28fb82719d sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.082 INF] HTTP POST /api/v1/game/tick responded 200 in 6.5ms | cid=06439357-1b09-4ac1-8b32-fc28fb82719d sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.272 INF] Tick requested with 9 cells | cid=e77b802c-6563-4658-8ed9-49524da9433a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:50.274 INF] Tick completed: 9 → 9 cells | cid=e77b802c-6563-4658-8ed9-49524da9433a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:50.277 INF] HTTP POST /api/v1/game/tick responded 200 in 5.8ms | cid=e77b802c-6563-4658-8ed9-49524da9433a sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=10
+[2026-02-22 14:13:50.470 INF] Tick requested with 9 cells | cid=3028e365-bdf2-4f5d-b0be-9eb6eda60d8c sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.473 INF] Tick completed: 9 → 9 cells | cid=3028e365-bdf2-4f5d-b0be-9eb6eda60d8c sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.475 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=3028e365-bdf2-4f5d-b0be-9eb6eda60d8c sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.678 INF] Tick requested with 9 cells | cid=f7914905-ddd6-4f41-8806-e074eb8c6571 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.680 INF] Tick completed: 9 → 9 cells | cid=f7914905-ddd6-4f41-8806-e074eb8c6571 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.682 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=f7914905-ddd6-4f41-8806-e074eb8c6571 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:50.870 INF] Tick requested with 9 cells | cid=e0b568a2-284a-452a-b0a1-3ec33063d969 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:50.874 INF] Tick completed: 9 → 9 cells | cid=e0b568a2-284a-452a-b0a1-3ec33063d969 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:50.876 INF] HTTP POST /api/v1/game/tick responded 200 in 6.2ms | cid=e0b568a2-284a-452a-b0a1-3ec33063d969 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.077 INF] Tick requested with 9 cells | cid=9e28c814-394b-4e1d-a608-eafd5018f11e sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.080 INF] Tick completed: 9 → 9 cells | cid=9e28c814-394b-4e1d-a608-eafd5018f11e sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.083 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=9e28c814-394b-4e1d-a608-eafd5018f11e sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.277 INF] Tick requested with 9 cells | cid=407a2f5e-c32e-42f1-91cd-531c1c44db79 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:51.281 INF] Tick completed: 9 → 9 cells | cid=407a2f5e-c32e-42f1-91cd-531c1c44db79 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:51.283 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=407a2f5e-c32e-42f1-91cd-531c1c44db79 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=11
+[2026-02-22 14:13:51.472 INF] Tick requested with 9 cells | cid=abbae80f-24cf-40aa-b6bb-447625378375 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.476 INF] Tick completed: 9 → 9 cells | cid=abbae80f-24cf-40aa-b6bb-447625378375 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.478 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=abbae80f-24cf-40aa-b6bb-447625378375 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.671 INF] Tick requested with 9 cells | cid=fc8727f9-ddfa-4fc8-8bf7-989007d95913 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.674 INF] Tick completed: 9 → 9 cells | cid=fc8727f9-ddfa-4fc8-8bf7-989007d95913 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.676 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=fc8727f9-ddfa-4fc8-8bf7-989007d95913 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:51.873 INF] Tick requested with 9 cells | cid=02e48ee4-a147-456e-8242-2691c89cb50b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:51.875 INF] Tick completed: 9 → 9 cells | cid=02e48ee4-a147-456e-8242-2691c89cb50b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:51.877 INF] HTTP POST /api/v1/game/tick responded 200 in 4.1ms | cid=02e48ee4-a147-456e-8242-2691c89cb50b sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=12
+[2026-02-22 14:13:52.076 INF] Tick requested with 9 cells | cid=204e664d-b6b0-44aa-9cc5-f8fb24b71ae5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:52.078 INF] Tick completed: 9 → 9 cells | cid=204e664d-b6b0-44aa-9cc5-f8fb24b71ae5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:52.081 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=204e664d-b6b0-44aa-9cc5-f8fb24b71ae5 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:52.278 INF] Tick requested with 9 cells | cid=d553873b-6281-42ea-ac9d-44f93ad8f939 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:52.281 INF] Tick completed: 9 → 9 cells | cid=d553873b-6281-42ea-ac9d-44f93ad8f939 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:13:52.283 INF] HTTP POST /api/v1/game/tick responded 200 in 4.9ms | cid=d553873b-6281-42ea-ac9d-44f93ad8f939 sid=256fc2af-4a50-4e66-9305-39726f01a797 | machine=DESKTOP-DMU2IJG tid=8
+[2026-02-22 14:19:31.663 INF] Parse requested: 144 chars | cid=c962c81f-266a-49d1-97ff-26386ae79f2a sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:31.663 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSP:00000002 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:31.666 INF] Parse completed: 8 cells loaded | cid=c962c81f-266a-49d1-97ff-26386ae79f2a sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:31.669 INF] HTTP POST /api/v1/log responded 200 in 6.3ms | cid=0HNJIBUE6MRSP:00000002 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:31.671 INF] HTTP POST /api/v1/game/parse responded 200 in 8.3ms | cid=c962c81f-266a-49d1-97ff-26386ae79f2a sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:31.679 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSQ:00000003 sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:31.683 INF] HTTP POST /api/v1/log responded 200 in 4.7ms | cid=0HNJIBUE6MRSQ:00000003 sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:37.905 INF] Parse requested: 144 chars | cid=592e1722-c3f0-45f4-b88f-2a81d4586b84 sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:37.905 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSP:00000004 sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:37.907 INF] Parse completed: 8 cells loaded | cid=592e1722-c3f0-45f4-b88f-2a81d4586b84 sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:37.909 INF] HTTP POST /api/v1/log responded 200 in 4.5ms | cid=0HNJIBUE6MRSP:00000004 sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:37.911 INF] HTTP POST /api/v1/game/parse responded 200 in 6.3ms | cid=592e1722-c3f0-45f4-b88f-2a81d4586b84 sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:37.919 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSQ:00000006 sid=unknown | machine=DESKTOP-DMU2IJG tid=19
+[2026-02-22 14:19:37.922 INF] HTTP POST /api/v1/log responded 200 in 3.6ms | cid=0HNJIBUE6MRSQ:00000006 sid=unknown | machine=DESKTOP-DMU2IJG tid=19
+[2026-02-22 14:19:44.464 INF] [Frontend] Grid reset null | cid=0HNJIBUE6MRSQ:00000008 sid=unknown | machine=DESKTOP-DMU2IJG tid=19
+[2026-02-22 14:19:44.467 INF] HTTP POST /api/v1/log responded 200 in 3.4ms | cid=0HNJIBUE6MRSQ:00000008 sid=unknown | machine=DESKTOP-DMU2IJG tid=19
+[2026-02-22 14:19:47.829 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSQ:00000009 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:47.831 INF] Parse requested: 144 chars | cid=7e7a85f3-f8e3-4b0b-9de4-6fb83a281be7 sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:47.832 INF] HTTP POST /api/v1/log responded 200 in 3.0ms | cid=0HNJIBUE6MRSQ:00000009 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:47.834 INF] Parse completed: 8 cells loaded | cid=7e7a85f3-f8e3-4b0b-9de4-6fb83a281be7 sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:47.838 INF] HTTP POST /api/v1/game/parse responded 200 in 6.9ms | cid=7e7a85f3-f8e3-4b0b-9de4-6fb83a281be7 sid=acf23461-1fa2-408c-9905-ddb10b3d07eb | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:19:47.842 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSP:00000007 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:19:47.844 INF] HTTP POST /api/v1/log responded 200 in 2.4ms | cid=0HNJIBUE6MRSP:00000007 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:20:06.422 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSP:00000009 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:20:06.422 INF] Parse requested: 144 chars | cid=54634a49-a2bd-45fb-a302-379771b899ea sid=fb290251-459f-4bf1-9da3-d23125c7b3a1 | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:06.424 INF] HTTP POST /api/v1/log responded 200 in 2.7ms | cid=0HNJIBUE6MRSP:00000009 sid=unknown | machine=DESKTOP-DMU2IJG tid=21
+[2026-02-22 14:20:06.426 INF] Parse completed: 8 cells loaded | cid=54634a49-a2bd-45fb-a302-379771b899ea sid=fb290251-459f-4bf1-9da3-d23125c7b3a1 | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:06.429 INF] HTTP POST /api/v1/game/parse responded 200 in 7.5ms | cid=54634a49-a2bd-45fb-a302-379771b899ea sid=fb290251-459f-4bf1-9da3-d23125c7b3a1 | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:06.433 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSQ:0000000C sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:06.436 INF] HTTP POST /api/v1/log responded 200 in 2.9ms | cid=0HNJIBUE6MRSQ:0000000C sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:12.145 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSQ:0000000E sid=unknown | machine=DESKTOP-DMU2IJG tid=25
+[2026-02-22 14:20:12.145 INF] Parse requested: 144 chars | cid=c8d356b4-fb26-42f3-8b7e-06e829098d32 sid=fb290251-459f-4bf1-9da3-d23125c7b3a1 | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:12.148 INF] HTTP POST /api/v1/log responded 200 in 2.7ms | cid=0HNJIBUE6MRSQ:0000000E sid=unknown | machine=DESKTOP-DMU2IJG tid=25
+[2026-02-22 14:20:12.149 INF] Parse completed: 8 cells loaded | cid=c8d356b4-fb26-42f3-8b7e-06e829098d32 sid=fb290251-459f-4bf1-9da3-d23125c7b3a1 | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:12.154 INF] HTTP POST /api/v1/game/parse responded 200 in 8.1ms | cid=c8d356b4-fb26-42f3-8b7e-06e829098d32 sid=fb290251-459f-4bf1-9da3-d23125c7b3a1 | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:12.158 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSP:0000000C sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:20:12.160 INF] HTTP POST /api/v1/log responded 200 in 2.7ms | cid=0HNJIBUE6MRSP:0000000C sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:26.762 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSP:0000000E sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:26.762 INF] Parse requested: 144 chars | cid=d56b3782-d13a-4140-9592-c210645ff193 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:26.766 INF] HTTP POST /api/v1/log responded 200 in 3.6ms | cid=0HNJIBUE6MRSP:0000000E sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:26.767 INF] Parse completed: 8 cells loaded | cid=d56b3782-d13a-4140-9592-c210645ff193 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:26.772 INF] HTTP POST /api/v1/game/parse responded 200 in 9.4ms | cid=d56b3782-d13a-4140-9592-c210645ff193 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:26.776 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSQ:00000011 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:26.778 INF] HTTP POST /api/v1/log responded 200 in 2.6ms | cid=0HNJIBUE6MRSQ:00000011 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:36.685 INF] Tick requested with 8 cells | cid=170fe79a-f66f-4008-b9b2-5924d915b75c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:36.688 INF] Tick completed: 8 → 9 cells | cid=170fe79a-f66f-4008-b9b2-5924d915b75c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:36.690 INF] HTTP POST /api/v1/game/tick responded 200 in 5.1ms | cid=170fe79a-f66f-4008-b9b2-5924d915b75c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:36.886 INF] Tick requested with 9 cells | cid=6714fd02-defe-4c5b-b39c-ec0de92764d4 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:36.889 INF] Tick completed: 9 → 9 cells | cid=6714fd02-defe-4c5b-b39c-ec0de92764d4 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:36.892 INF] HTTP POST /api/v1/game/tick responded 200 in 5.8ms | cid=6714fd02-defe-4c5b-b39c-ec0de92764d4 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:37.078 INF] Tick requested with 9 cells | cid=fa037502-03aa-40f4-b131-68323a627b89 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.081 INF] Tick completed: 9 → 9 cells | cid=fa037502-03aa-40f4-b131-68323a627b89 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.082 INF] HTTP POST /api/v1/game/tick responded 200 in 4.1ms | cid=fa037502-03aa-40f4-b131-68323a627b89 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.280 INF] Tick requested with 9 cells | cid=093ef9e5-9ba6-4b9e-9abf-8b5ef8fa9375 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.282 INF] Tick completed: 9 → 9 cells | cid=093ef9e5-9ba6-4b9e-9abf-8b5ef8fa9375 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.284 INF] HTTP POST /api/v1/game/tick responded 200 in 4.2ms | cid=093ef9e5-9ba6-4b9e-9abf-8b5ef8fa9375 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.478 INF] Tick requested with 9 cells | cid=17b2e39b-5998-4c1c-bdf1-7d63955510a9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:37.481 INF] Tick completed: 9 → 9 cells | cid=17b2e39b-5998-4c1c-bdf1-7d63955510a9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:37.483 INF] HTTP POST /api/v1/game/tick responded 200 in 4.5ms | cid=17b2e39b-5998-4c1c-bdf1-7d63955510a9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:37.677 INF] Tick requested with 9 cells | cid=673c1011-ab9f-4692-ab22-1e6a8489659c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.681 INF] Tick completed: 9 → 9 cells | cid=673c1011-ab9f-4692-ab22-1e6a8489659c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.682 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=673c1011-ab9f-4692-ab22-1e6a8489659c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.891 INF] Tick requested with 9 cells | cid=e20e212a-1165-4159-a750-98c1fe2b32b6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.894 INF] Tick completed: 9 → 9 cells | cid=e20e212a-1165-4159-a750-98c1fe2b32b6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:37.896 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=e20e212a-1165-4159-a750-98c1fe2b32b6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.080 INF] Tick requested with 9 cells | cid=4ae630a8-30df-450f-8ef9-dcdf7b5789fb sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.082 INF] Tick completed: 9 → 9 cells | cid=4ae630a8-30df-450f-8ef9-dcdf7b5789fb sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.084 INF] HTTP POST /api/v1/game/tick responded 200 in 3.9ms | cid=4ae630a8-30df-450f-8ef9-dcdf7b5789fb sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.277 INF] Tick requested with 9 cells | cid=370b76e5-266e-4002-9d16-bd0fdc7aa946 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:38.279 INF] Tick completed: 9 → 9 cells | cid=370b76e5-266e-4002-9d16-bd0fdc7aa946 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:38.280 INF] HTTP POST /api/v1/game/tick responded 200 in 3.9ms | cid=370b76e5-266e-4002-9d16-bd0fdc7aa946 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:38.477 INF] Tick requested with 9 cells | cid=64e9870a-c764-4484-bdc6-097770681ddf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.479 INF] Tick completed: 9 → 9 cells | cid=64e9870a-c764-4484-bdc6-097770681ddf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.481 INF] HTTP POST /api/v1/game/tick responded 200 in 4.1ms | cid=64e9870a-c764-4484-bdc6-097770681ddf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:38.677 INF] Tick requested with 9 cells | cid=0c4b667d-2446-419f-9650-63e6923cea5b sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:38.681 INF] Tick completed: 9 → 9 cells | cid=0c4b667d-2446-419f-9650-63e6923cea5b sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:38.682 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=0c4b667d-2446-419f-9650-63e6923cea5b sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:40.068 INF] [Frontend] Exporting cells {"cellCount":"9"} | cid=0HNJIBUE6MRSP:00000010 sid=unknown | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:40.071 INF] HTTP POST /api/v1/log responded 200 in 3.3ms | cid=0HNJIBUE6MRSP:00000010 sid=unknown | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:21:40.071 INF] Export requested: 9 cells | cid=22083a38-e9cc-46bb-bbbc-ae563ca4fa8a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:40.076 INF] Export completed: 9 cells serialized | cid=22083a38-e9cc-46bb-bbbc-ae563ca4fa8a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:40.080 INF] HTTP POST /api/v1/game/export responded 200 in 12.1ms | cid=22083a38-e9cc-46bb-bbbc-ae563ca4fa8a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:40.083 INF] [Frontend] Export completed {"cellCount":"9","outputLength":"151"} | cid=0HNJIBUE6MRSQ:00000020 sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:40.086 INF] HTTP POST /api/v1/log responded 200 in 3.0ms | cid=0HNJIBUE6MRSQ:00000020 sid=unknown | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:46.249 WRN] [Frontend] Life106 file rejected by client validation {"reason":"File contains 1 line(s) with invalid or out-of-range coordinates."} | cid=0HNJIBUE6MRSQ:00000022 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:46.253 INF] HTTP POST /api/v1/log responded 200 in 11.3ms | cid=0HNJIBUE6MRSQ:00000022 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:56.053 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSQ:00000024 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:56.053 INF] Parse requested: 144 chars | cid=e8d6f412-4d9a-4f81-9205-a5c703806d0f sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:56.056 INF] HTTP POST /api/v1/log responded 200 in 3.6ms | cid=0HNJIBUE6MRSQ:00000024 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:56.059 INF] Parse completed: 8 cells loaded | cid=e8d6f412-4d9a-4f81-9205-a5c703806d0f sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:56.064 INF] HTTP POST /api/v1/game/parse responded 200 in 11.1ms | cid=e8d6f412-4d9a-4f81-9205-a5c703806d0f sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:56.068 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSP:00000013 sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:56.071 INF] HTTP POST /api/v1/log responded 200 in 2.7ms | cid=0HNJIBUE6MRSP:00000013 sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:58.352 INF] Tick requested with 8 cells | cid=9ee802f6-220e-4467-bb2f-ef9a93b95196 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:58.355 INF] Tick completed: 8 → 9 cells | cid=9ee802f6-220e-4467-bb2f-ef9a93b95196 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:58.357 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=9ee802f6-220e-4467-bb2f-ef9a93b95196 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:58.541 INF] Tick requested with 9 cells | cid=003fb43c-30e7-458b-9b49-f409f1173310 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.543 INF] Tick completed: 9 → 9 cells | cid=003fb43c-30e7-458b-9b49-f409f1173310 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.545 INF] HTTP POST /api/v1/game/tick responded 200 in 3.6ms | cid=003fb43c-30e7-458b-9b49-f409f1173310 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.743 INF] Tick requested with 9 cells | cid=b1e8d195-9026-4c5e-9017-ebf8a136e66f sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.746 INF] Tick completed: 9 → 9 cells | cid=b1e8d195-9026-4c5e-9017-ebf8a136e66f sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.748 INF] HTTP POST /api/v1/game/tick responded 200 in 5.1ms | cid=b1e8d195-9026-4c5e-9017-ebf8a136e66f sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.947 INF] Tick requested with 9 cells | cid=2a6b8882-8ee6-46f6-9cac-6a35e86d3ee7 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.952 INF] Tick completed: 9 → 9 cells | cid=2a6b8882-8ee6-46f6-9cac-6a35e86d3ee7 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:58.954 INF] HTTP POST /api/v1/game/tick responded 200 in 7.0ms | cid=2a6b8882-8ee6-46f6-9cac-6a35e86d3ee7 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:59.143 INF] Tick requested with 9 cells | cid=6143a994-697b-4ece-a1b0-605338352aaf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.151 INF] Tick completed: 9 → 9 cells | cid=6143a994-697b-4ece-a1b0-605338352aaf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.180 INF] HTTP POST /api/v1/game/tick responded 200 in 36.6ms | cid=6143a994-697b-4ece-a1b0-605338352aaf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.346 INF] Tick requested with 9 cells | cid=d4ee88b8-ff9b-4cf3-8daa-d214d8267490 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.350 INF] Tick completed: 9 → 9 cells | cid=d4ee88b8-ff9b-4cf3-8daa-d214d8267490 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.352 INF] HTTP POST /api/v1/game/tick responded 200 in 6.5ms | cid=d4ee88b8-ff9b-4cf3-8daa-d214d8267490 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.565 INF] Tick requested with 9 cells | cid=2775a28c-ea6d-4d7a-9362-94cc79524f1a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:59.574 INF] Tick completed: 9 → 9 cells | cid=2775a28c-ea6d-4d7a-9362-94cc79524f1a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:59.577 INF] HTTP POST /api/v1/game/tick responded 200 in 13.1ms | cid=2775a28c-ea6d-4d7a-9362-94cc79524f1a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:21:59.745 INF] Tick requested with 9 cells | cid=f57219fc-4253-4145-a3c9-deff5b7c39c2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.749 INF] Tick completed: 9 → 9 cells | cid=f57219fc-4253-4145-a3c9-deff5b7c39c2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.751 INF] HTTP POST /api/v1/game/tick responded 200 in 6.3ms | cid=f57219fc-4253-4145-a3c9-deff5b7c39c2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:21:59.948 INF] Tick requested with 9 cells | cid=896679e6-9f65-45f2-a965-83c81318cdc8 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:59.952 INF] Tick completed: 9 → 9 cells | cid=896679e6-9f65-45f2-a965-83c81318cdc8 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:21:59.954 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=896679e6-9f65-45f2-a965-83c81318cdc8 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:00.146 INF] Tick requested with 9 cells | cid=863cede9-152b-4164-b77a-e9df2bb6171d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:00.147 INF] Tick completed: 9 → 9 cells | cid=863cede9-152b-4164-b77a-e9df2bb6171d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:00.150 INF] HTTP POST /api/v1/game/tick responded 200 in 4.1ms | cid=863cede9-152b-4164-b77a-e9df2bb6171d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:00.351 INF] Tick requested with 9 cells | cid=b619beac-6810-4946-b99c-320f1644fad9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.356 INF] Tick completed: 9 → 9 cells | cid=b619beac-6810-4946-b99c-320f1644fad9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.357 INF] HTTP POST /api/v1/game/tick responded 200 in 6.5ms | cid=b619beac-6810-4946-b99c-320f1644fad9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.550 INF] Tick requested with 9 cells | cid=5e28e922-b9ba-4a80-9af5-79c37d25d7b3 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.554 INF] Tick completed: 9 → 9 cells | cid=5e28e922-b9ba-4a80-9af5-79c37d25d7b3 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.555 INF] HTTP POST /api/v1/game/tick responded 200 in 5.5ms | cid=5e28e922-b9ba-4a80-9af5-79c37d25d7b3 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.750 INF] Tick requested with 9 cells | cid=13735194-85ae-4f1c-bf74-8503cea51544 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.756 INF] Tick completed: 9 → 9 cells | cid=13735194-85ae-4f1c-bf74-8503cea51544 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.757 INF] HTTP POST /api/v1/game/tick responded 200 in 7.4ms | cid=13735194-85ae-4f1c-bf74-8503cea51544 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.946 INF] Tick requested with 9 cells | cid=e162ea1a-fa35-477b-ac89-2d7182f616d6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.950 INF] Tick completed: 9 → 9 cells | cid=e162ea1a-fa35-477b-ac89-2d7182f616d6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:00.952 INF] HTTP POST /api/v1/game/tick responded 200 in 6.5ms | cid=e162ea1a-fa35-477b-ac89-2d7182f616d6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.146 INF] Tick requested with 9 cells | cid=cf7cb722-7ab9-4e0c-b539-a72b252a89bd sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.149 INF] Tick completed: 9 → 9 cells | cid=cf7cb722-7ab9-4e0c-b539-a72b252a89bd sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.150 INF] HTTP POST /api/v1/game/tick responded 200 in 5.0ms | cid=cf7cb722-7ab9-4e0c-b539-a72b252a89bd sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.346 INF] Tick requested with 9 cells | cid=3f0e7b7f-983a-4ee1-abf7-05268f6b76bf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:01.350 INF] Tick completed: 9 → 9 cells | cid=3f0e7b7f-983a-4ee1-abf7-05268f6b76bf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:01.352 INF] HTTP POST /api/v1/game/tick responded 200 in 6.1ms | cid=3f0e7b7f-983a-4ee1-abf7-05268f6b76bf sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:01.546 INF] Tick requested with 9 cells | cid=57c8f3a0-0a5d-4bfc-a11c-e18fc2a87c61 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:01.550 INF] Tick completed: 9 → 9 cells | cid=57c8f3a0-0a5d-4bfc-a11c-e18fc2a87c61 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:01.552 INF] HTTP POST /api/v1/game/tick responded 200 in 6.0ms | cid=57c8f3a0-0a5d-4bfc-a11c-e18fc2a87c61 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:01.746 INF] Tick requested with 9 cells | cid=422b5d23-ee67-442e-9517-e21f53dbd672 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.749 INF] Tick completed: 9 → 9 cells | cid=422b5d23-ee67-442e-9517-e21f53dbd672 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.751 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=422b5d23-ee67-442e-9517-e21f53dbd672 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.943 INF] Tick requested with 9 cells | cid=75f18f11-9082-4461-a839-1a920b1559de sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.946 INF] Tick completed: 9 → 9 cells | cid=75f18f11-9082-4461-a839-1a920b1559de sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:01.948 INF] HTTP POST /api/v1/game/tick responded 200 in 4.5ms | cid=75f18f11-9082-4461-a839-1a920b1559de sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:02.149 INF] Tick requested with 9 cells | cid=acad8f1e-b584-44fc-b3cd-56d9351f9ff0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:02.155 INF] Tick completed: 9 → 9 cells | cid=acad8f1e-b584-44fc-b3cd-56d9351f9ff0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:02.157 INF] HTTP POST /api/v1/game/tick responded 200 in 8.9ms | cid=acad8f1e-b584-44fc-b3cd-56d9351f9ff0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:04.781 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSP:0000002A sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:04.782 INF] Parse requested: 144 chars | cid=136f376f-adf3-4626-aba4-fd8baefb3801 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:04.784 INF] HTTP POST /api/v1/log responded 200 in 2.8ms | cid=0HNJIBUE6MRSP:0000002A sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:04.786 INF] Parse completed: 8 cells loaded | cid=136f376f-adf3-4626-aba4-fd8baefb3801 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:04.790 INF] HTTP POST /api/v1/game/parse responded 200 in 8.5ms | cid=136f376f-adf3-4626-aba4-fd8baefb3801 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:04.794 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSQ:00000027 sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:04.797 INF] HTTP POST /api/v1/log responded 200 in 2.9ms | cid=0HNJIBUE6MRSQ:00000027 sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.504 INF] Tick requested with 8 cells | cid=6e9db90a-6e1f-46fd-9fd6-574a787beb56 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.508 INF] Tick completed: 8 → 9 cells | cid=6e9db90a-6e1f-46fd-9fd6-574a787beb56 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.510 INF] HTTP POST /api/v1/game/tick responded 200 in 6.2ms | cid=6e9db90a-6e1f-46fd-9fd6-574a787beb56 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.685 INF] Tick requested with 9 cells | cid=0047a84b-1c61-4361-822d-3b7fc82ad275 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.687 INF] Tick completed: 9 → 9 cells | cid=0047a84b-1c61-4361-822d-3b7fc82ad275 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.689 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=0047a84b-1c61-4361-822d-3b7fc82ad275 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:07.889 INF] Tick requested with 9 cells | cid=b0465e48-f90e-49be-bb8d-493425686ef2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:07.891 INF] Tick completed: 9 → 9 cells | cid=b0465e48-f90e-49be-bb8d-493425686ef2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:07.893 INF] HTTP POST /api/v1/game/tick responded 200 in 4.0ms | cid=b0465e48-f90e-49be-bb8d-493425686ef2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:08.087 INF] Tick requested with 9 cells | cid=44f89642-e5c5-4394-b6bc-a31ab81259a7 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.089 INF] Tick completed: 9 → 9 cells | cid=44f89642-e5c5-4394-b6bc-a31ab81259a7 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.091 INF] HTTP POST /api/v1/game/tick responded 200 in 4.1ms | cid=44f89642-e5c5-4394-b6bc-a31ab81259a7 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.289 INF] Tick requested with 9 cells | cid=03b9a898-d34b-4d01-b41d-791bc5ff968c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.291 INF] Tick completed: 9 → 9 cells | cid=03b9a898-d34b-4d01-b41d-791bc5ff968c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.293 INF] HTTP POST /api/v1/game/tick responded 200 in 3.6ms | cid=03b9a898-d34b-4d01-b41d-791bc5ff968c sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.488 INF] Tick requested with 9 cells | cid=df453c88-cb06-4c96-aea6-20791980918d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:08.492 INF] Tick completed: 9 → 9 cells | cid=df453c88-cb06-4c96-aea6-20791980918d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:08.494 INF] HTTP POST /api/v1/game/tick responded 200 in 6.4ms | cid=df453c88-cb06-4c96-aea6-20791980918d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=23
+[2026-02-22 14:22:08.688 INF] Tick requested with 9 cells | cid=086a7de9-b047-4c62-9c95-d6e9e4086736 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:08.691 INF] Tick completed: 9 → 9 cells | cid=086a7de9-b047-4c62-9c95-d6e9e4086736 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:08.693 INF] HTTP POST /api/v1/game/tick responded 200 in 4.6ms | cid=086a7de9-b047-4c62-9c95-d6e9e4086736 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:08.885 INF] Tick requested with 9 cells | cid=10b402fe-fa0e-406c-ae3e-a552ffde0680 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.887 INF] Tick completed: 9 → 9 cells | cid=10b402fe-fa0e-406c-ae3e-a552ffde0680 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:08.889 INF] HTTP POST /api/v1/game/tick responded 200 in 4.1ms | cid=10b402fe-fa0e-406c-ae3e-a552ffde0680 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:09.088 INF] Tick requested with 9 cells | cid=8abaa36d-ab9b-4445-a4b1-2b76e6af15f6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:09.090 INF] Tick completed: 9 → 9 cells | cid=8abaa36d-ab9b-4445-a4b1-2b76e6af15f6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:09.092 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=8abaa36d-ab9b-4445-a4b1-2b76e6af15f6 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:09.286 INF] Tick requested with 9 cells | cid=a8a23139-efd5-4b46-a873-a7c70953701d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.288 INF] Tick completed: 9 → 9 cells | cid=a8a23139-efd5-4b46-a873-a7c70953701d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.290 INF] HTTP POST /api/v1/game/tick responded 200 in 4.0ms | cid=a8a23139-efd5-4b46-a873-a7c70953701d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.487 INF] Tick requested with 9 cells | cid=22c48600-15a5-4d32-bf96-6ce98f54ce5a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.490 INF] Tick completed: 9 → 9 cells | cid=22c48600-15a5-4d32-bf96-6ce98f54ce5a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.492 INF] HTTP POST /api/v1/game/tick responded 200 in 5.0ms | cid=22c48600-15a5-4d32-bf96-6ce98f54ce5a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.686 INF] Tick requested with 9 cells | cid=69023379-46d2-458f-8f51-79b7ca25d5d1 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.689 INF] Tick completed: 9 → 9 cells | cid=69023379-46d2-458f-8f51-79b7ca25d5d1 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.691 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=69023379-46d2-458f-8f51-79b7ca25d5d1 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.902 INF] Tick requested with 9 cells | cid=003f69d6-b3d1-48e5-af09-b59570bddaa9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.907 INF] Tick completed: 9 → 9 cells | cid=003f69d6-b3d1-48e5-af09-b59570bddaa9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:09.909 INF] HTTP POST /api/v1/game/tick responded 200 in 6.4ms | cid=003f69d6-b3d1-48e5-af09-b59570bddaa9 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:10.089 INF] Tick requested with 9 cells | cid=c480f408-5628-4ab9-a0e5-3849374729b8 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.091 INF] Tick completed: 9 → 9 cells | cid=c480f408-5628-4ab9-a0e5-3849374729b8 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.093 INF] HTTP POST /api/v1/game/tick responded 200 in 4.0ms | cid=c480f408-5628-4ab9-a0e5-3849374729b8 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.285 INF] Tick requested with 9 cells | cid=ec850bcd-bde0-4810-9bc1-df034f52fe59 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.287 INF] Tick completed: 9 → 9 cells | cid=ec850bcd-bde0-4810-9bc1-df034f52fe59 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.289 INF] HTTP POST /api/v1/game/tick responded 200 in 4.0ms | cid=ec850bcd-bde0-4810-9bc1-df034f52fe59 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.488 INF] Tick requested with 9 cells | cid=cb70abf5-20aa-4856-8874-cf3178e9dcdc sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.490 INF] Tick completed: 9 → 9 cells | cid=cb70abf5-20aa-4856-8874-cf3178e9dcdc sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.493 INF] HTTP POST /api/v1/game/tick responded 200 in 5.0ms | cid=cb70abf5-20aa-4856-8874-cf3178e9dcdc sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:10.694 INF] Tick requested with 9 cells | cid=7d2ba6e4-bb9c-49f5-8978-b91b87a0fc99 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:10.701 INF] Tick completed: 9 → 9 cells | cid=7d2ba6e4-bb9c-49f5-8978-b91b87a0fc99 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:10.703 INF] HTTP POST /api/v1/game/tick responded 200 in 9.6ms | cid=7d2ba6e4-bb9c-49f5-8978-b91b87a0fc99 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:10.890 INF] Tick requested with 9 cells | cid=a74b0db3-1700-4a4a-a396-67af20123e7a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:10.892 INF] Tick completed: 9 → 9 cells | cid=a74b0db3-1700-4a4a-a396-67af20123e7a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:10.895 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=a74b0db3-1700-4a4a-a396-67af20123e7a sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.089 INF] Tick requested with 9 cells | cid=3d893ce7-d530-4b6f-859c-b2678cea0cc0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.093 INF] Tick completed: 9 → 9 cells | cid=3d893ce7-d530-4b6f-859c-b2678cea0cc0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.095 INF] HTTP POST /api/v1/game/tick responded 200 in 5.6ms | cid=3d893ce7-d530-4b6f-859c-b2678cea0cc0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.286 INF] Tick requested with 9 cells | cid=1df60b6e-2e75-46ed-b38c-a41e6b4cf316 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.289 INF] Tick completed: 9 → 9 cells | cid=1df60b6e-2e75-46ed-b38c-a41e6b4cf316 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.293 INF] HTTP POST /api/v1/game/tick responded 200 in 7.1ms | cid=1df60b6e-2e75-46ed-b38c-a41e6b4cf316 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.490 INF] Tick requested with 9 cells | cid=6f6d5ab9-8062-4b3a-9bd6-b877866ac048 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.502 INF] Tick completed: 9 → 9 cells | cid=6f6d5ab9-8062-4b3a-9bd6-b877866ac048 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.504 INF] HTTP POST /api/v1/game/tick responded 200 in 14.4ms | cid=6f6d5ab9-8062-4b3a-9bd6-b877866ac048 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=22
+[2026-02-22 14:22:11.691 INF] Tick requested with 9 cells | cid=77d1c3d1-2505-47a8-a9ba-5bd8e7d1fbb0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.698 INF] Tick completed: 9 → 9 cells | cid=77d1c3d1-2505-47a8-a9ba-5bd8e7d1fbb0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.699 INF] HTTP POST /api/v1/game/tick responded 200 in 8.9ms | cid=77d1c3d1-2505-47a8-a9ba-5bd8e7d1fbb0 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.890 INF] Tick requested with 9 cells | cid=6aed87a1-ca1b-41d1-8bd9-f9c3578233fd sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.895 INF] Tick completed: 9 → 9 cells | cid=6aed87a1-ca1b-41d1-8bd9-f9c3578233fd sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:11.896 INF] HTTP POST /api/v1/game/tick responded 200 in 6.1ms | cid=6aed87a1-ca1b-41d1-8bd9-f9c3578233fd sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.091 INF] Tick requested with 9 cells | cid=f87a0947-3feb-408f-87db-9b02ef06ec21 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.096 INF] Tick completed: 9 → 9 cells | cid=f87a0947-3feb-408f-87db-9b02ef06ec21 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.098 INF] HTTP POST /api/v1/game/tick responded 200 in 7.3ms | cid=f87a0947-3feb-408f-87db-9b02ef06ec21 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.289 INF] Tick requested with 9 cells | cid=00fe41ab-d291-4e22-9fff-121a26622182 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:12.293 INF] Tick completed: 9 → 9 cells | cid=00fe41ab-d291-4e22-9fff-121a26622182 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:12.295 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=00fe41ab-d291-4e22-9fff-121a26622182 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:12.492 INF] Tick requested with 9 cells | cid=3ae8bc0e-adcc-434a-8dd6-a85b9f03b659 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.496 INF] Tick completed: 9 → 9 cells | cid=3ae8bc0e-adcc-434a-8dd6-a85b9f03b659 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.498 INF] HTTP POST /api/v1/game/tick responded 200 in 7.1ms | cid=3ae8bc0e-adcc-434a-8dd6-a85b9f03b659 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.694 INF] Tick requested with 9 cells | cid=6d3baa41-3316-462b-9900-49ec61812fca sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:12.699 INF] Tick completed: 9 → 9 cells | cid=6d3baa41-3316-462b-9900-49ec61812fca sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:12.701 INF] HTTP POST /api/v1/game/tick responded 200 in 6.5ms | cid=6d3baa41-3316-462b-9900-49ec61812fca sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:12.891 INF] Tick requested with 9 cells | cid=d00f6745-ed91-452a-8128-d79d3457a256 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.899 INF] Tick completed: 9 → 9 cells | cid=d00f6745-ed91-452a-8128-d79d3457a256 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:12.901 INF] HTTP POST /api/v1/game/tick responded 200 in 10.1ms | cid=d00f6745-ed91-452a-8128-d79d3457a256 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:13.088 INF] Tick requested with 9 cells | cid=82585a98-1e43-4c1f-8e87-a3618e463af2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:13.090 INF] Tick completed: 9 → 9 cells | cid=82585a98-1e43-4c1f-8e87-a3618e463af2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:13.092 INF] Parse requested: 144 chars | cid=7e26efa3-9d71-4420-9bae-a08e0425a85d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:13.093 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=82585a98-1e43-4c1f-8e87-a3618e463af2 sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:22:13.093 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSP:0000002D sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:13.095 INF] Parse completed: 8 cells loaded | cid=7e26efa3-9d71-4420-9bae-a08e0425a85d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:13.099 INF] HTTP POST /api/v1/log responded 200 in 6.2ms | cid=0HNJIBUE6MRSP:0000002D sid=unknown | machine=DESKTOP-DMU2IJG tid=30
+[2026-02-22 14:22:13.101 INF] HTTP POST /api/v1/game/parse responded 200 in 8.7ms | cid=7e26efa3-9d71-4420-9bae-a08e0425a85d sid=7d94a814-1f42-4d04-98ed-5c5e00ffb45a | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:13.106 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSR:00000002 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:22:13.109 INF] HTTP POST /api/v1/log responded 200 in 3.1ms | cid=0HNJIBUE6MRSR:00000002 sid=unknown | machine=DESKTOP-DMU2IJG tid=28
+[2026-02-22 14:23:08.512 INF] Parse requested: 144 chars | cid=a34a806e-c706-4360-86b4-633744d663a9 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:08.512 INF] [Frontend] Loading Life106 file {"contentLength":"144"} | cid=0HNJIBUE6MRSR:00000004 sid=unknown | machine=DESKTOP-DMU2IJG tid=32
+[2026-02-22 14:23:08.514 INF] Parse completed: 8 cells loaded | cid=a34a806e-c706-4360-86b4-633744d663a9 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:08.517 INF] HTTP POST /api/v1/log responded 200 in 5.2ms | cid=0HNJIBUE6MRSR:00000004 sid=unknown | machine=DESKTOP-DMU2IJG tid=32
+[2026-02-22 14:23:08.519 INF] HTTP POST /api/v1/game/parse responded 200 in 7.7ms | cid=a34a806e-c706-4360-86b4-633744d663a9 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:08.526 INF] [Frontend] Life106 file loaded {"cellCount":"8"} | cid=0HNJIBUE6MRSP:00000030 sid=unknown | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:08.529 INF] HTTP POST /api/v1/log responded 200 in 3.2ms | cid=0HNJIBUE6MRSP:00000030 sid=unknown | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.245 INF] Tick requested with 8 cells | cid=ffd50c4c-170b-4c6d-a9c8-adb116343efd sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.247 INF] Tick completed: 8 → 9 cells | cid=ffd50c4c-170b-4c6d-a9c8-adb116343efd sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.249 INF] HTTP POST /api/v1/game/tick responded 200 in 3.8ms | cid=ffd50c4c-170b-4c6d-a9c8-adb116343efd sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.459 INF] Tick requested with 9 cells | cid=455ef807-7a9b-43c8-8081-ca4a772fb389 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:19.466 INF] Tick completed: 9 → 9 cells | cid=455ef807-7a9b-43c8-8081-ca4a772fb389 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:19.469 INF] HTTP POST /api/v1/game/tick responded 200 in 10.5ms | cid=455ef807-7a9b-43c8-8081-ca4a772fb389 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:19.659 INF] Tick requested with 9 cells | cid=9842bfc9-c507-4895-9b96-87f02046a08c sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.664 INF] Tick completed: 9 → 9 cells | cid=9842bfc9-c507-4895-9b96-87f02046a08c sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.666 INF] HTTP POST /api/v1/game/tick responded 200 in 6.9ms | cid=9842bfc9-c507-4895-9b96-87f02046a08c sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:19.844 INF] Tick requested with 9 cells | cid=dc237752-6ad3-4d67-9c69-07e9ebe62f96 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:19.846 INF] Tick completed: 9 → 9 cells | cid=dc237752-6ad3-4d67-9c69-07e9ebe62f96 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:19.848 INF] HTTP POST /api/v1/game/tick responded 200 in 4.2ms | cid=dc237752-6ad3-4d67-9c69-07e9ebe62f96 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.044 INF] Tick requested with 9 cells | cid=d2bcffb4-5af2-4a6a-9ec1-65ae94e42878 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.046 INF] Tick completed: 9 → 9 cells | cid=d2bcffb4-5af2-4a6a-9ec1-65ae94e42878 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.048 INF] HTTP POST /api/v1/game/tick responded 200 in 3.6ms | cid=d2bcffb4-5af2-4a6a-9ec1-65ae94e42878 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.244 INF] Tick requested with 9 cells | cid=1d94ba04-70e5-44f5-ae5d-02f8e6efb6fc sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:20.247 INF] Tick completed: 9 → 9 cells | cid=1d94ba04-70e5-44f5-ae5d-02f8e6efb6fc sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:20.249 INF] HTTP POST /api/v1/game/tick responded 200 in 4.6ms | cid=1d94ba04-70e5-44f5-ae5d-02f8e6efb6fc sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:20.446 INF] Tick requested with 9 cells | cid=23c2c27e-a51b-4872-94fe-5ec23b2731e4 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.450 INF] Tick completed: 9 → 9 cells | cid=23c2c27e-a51b-4872-94fe-5ec23b2731e4 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.452 INF] HTTP POST /api/v1/game/tick responded 200 in 5.9ms | cid=23c2c27e-a51b-4872-94fe-5ec23b2731e4 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.645 INF] Tick requested with 9 cells | cid=d359d868-fafd-4d8d-96f5-5c1b82f13852 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.646 INF] Tick completed: 9 → 9 cells | cid=d359d868-fafd-4d8d-96f5-5c1b82f13852 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.648 INF] HTTP POST /api/v1/game/tick responded 200 in 3.4ms | cid=d359d868-fafd-4d8d-96f5-5c1b82f13852 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:20.854 INF] Tick requested with 9 cells | cid=b1509a40-3894-4498-aa4c-f8720a9d7709 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:20.857 INF] Tick completed: 9 → 9 cells | cid=b1509a40-3894-4498-aa4c-f8720a9d7709 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:20.859 INF] HTTP POST /api/v1/game/tick responded 200 in 4.8ms | cid=b1509a40-3894-4498-aa4c-f8720a9d7709 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:21.055 INF] Tick requested with 9 cells | cid=cb8f375b-630c-418d-8a22-bc3061db539b sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.058 INF] Tick completed: 9 → 9 cells | cid=cb8f375b-630c-418d-8a22-bc3061db539b sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.060 INF] HTTP POST /api/v1/game/tick responded 200 in 4.7ms | cid=cb8f375b-630c-418d-8a22-bc3061db539b sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.260 INF] Tick requested with 9 cells | cid=bf3ad6d6-13cf-405f-890f-18cde2e91f51 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.272 INF] Tick completed: 9 → 9 cells | cid=bf3ad6d6-13cf-405f-890f-18cde2e91f51 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.274 INF] HTTP POST /api/v1/game/tick responded 200 in 14.2ms | cid=bf3ad6d6-13cf-405f-890f-18cde2e91f51 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.458 INF] Tick requested with 9 cells | cid=192feaf1-218b-4ea2-a63a-e17d76a1d0c2 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.461 INF] Tick completed: 9 → 9 cells | cid=192feaf1-218b-4ea2-a63a-e17d76a1d0c2 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.463 INF] HTTP POST /api/v1/game/tick responded 200 in 4.6ms | cid=192feaf1-218b-4ea2-a63a-e17d76a1d0c2 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.659 INF] Tick requested with 9 cells | cid=483ff681-6fa7-42f9-ab31-b4640edffc3e sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:21.666 INF] Tick completed: 9 → 9 cells | cid=483ff681-6fa7-42f9-ab31-b4640edffc3e sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:21.667 INF] HTTP POST /api/v1/game/tick responded 200 in 8.9ms | cid=483ff681-6fa7-42f9-ab31-b4640edffc3e sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:21.858 INF] Tick requested with 9 cells | cid=8e914d8b-9000-4818-8983-419198cc0787 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.861 INF] Tick completed: 9 → 9 cells | cid=8e914d8b-9000-4818-8983-419198cc0787 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:21.863 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=8e914d8b-9000-4818-8983-419198cc0787 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.060 INF] Tick requested with 9 cells | cid=b27d42b9-0fdf-4fc7-a22c-4b7775f93ce9 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.066 INF] Tick completed: 9 → 9 cells | cid=b27d42b9-0fdf-4fc7-a22c-4b7775f93ce9 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.068 INF] HTTP POST /api/v1/game/tick responded 200 in 8.1ms | cid=b27d42b9-0fdf-4fc7-a22c-4b7775f93ce9 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.206 INF] [Frontend] Loading Life106 file {"contentLength":"345"} | cid=0HNJIBUE6MRSP:00000042 sid=unknown | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:22.206 INF] Parse requested: 345 chars | cid=1fd83c14-0ece-40da-9671-c58fd27fe21d sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.210 INF] HTTP POST /api/v1/log responded 200 in 4.1ms | cid=0HNJIBUE6MRSP:00000042 sid=unknown | machine=DESKTOP-DMU2IJG tid=29
+[2026-02-22 14:23:22.212 INF] Parse completed: 14 cells loaded | cid=1fd83c14-0ece-40da-9671-c58fd27fe21d sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.217 INF] HTTP POST /api/v1/game/parse responded 200 in 11.0ms | cid=1fd83c14-0ece-40da-9671-c58fd27fe21d sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.221 INF] [Frontend] Life106 file loaded {"cellCount":"14"} | cid=0HNJIBUE6MRSR:00000007 sid=unknown | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:22.224 INF] HTTP POST /api/v1/log responded 200 in 3.2ms | cid=0HNJIBUE6MRSR:00000007 sid=unknown | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:48.309 INF] Tick requested with 14 cells | cid=b9ebb293-ff68-481a-a15d-3e2f2c828e23 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.311 INF] Tick completed: 14 → 19 cells | cid=b9ebb293-ff68-481a-a15d-3e2f2c828e23 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.313 INF] HTTP POST /api/v1/game/tick responded 200 in 4.3ms | cid=b9ebb293-ff68-481a-a15d-3e2f2c828e23 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.522 INF] Tick requested with 19 cells | cid=de28082e-7322-45d0-be7a-ec7b8a64440c sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.525 INF] Tick completed: 19 → 19 cells | cid=de28082e-7322-45d0-be7a-ec7b8a64440c sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.527 INF] HTTP POST /api/v1/game/tick responded 200 in 5.4ms | cid=de28082e-7322-45d0-be7a-ec7b8a64440c sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.721 INF] Tick requested with 19 cells | cid=c7127501-409f-4860-875b-498654eb1ed6 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.730 INF] Tick completed: 19 → 19 cells | cid=c7127501-409f-4860-875b-498654eb1ed6 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.733 INF] HTTP POST /api/v1/game/tick responded 200 in 12.5ms | cid=c7127501-409f-4860-875b-498654eb1ed6 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=33
+[2026-02-22 14:23:48.918 INF] Tick requested with 19 cells | cid=56f060b3-b52c-421a-aad4-4a6610669c12 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:48.921 INF] Tick completed: 19 → 19 cells | cid=56f060b3-b52c-421a-aad4-4a6610669c12 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:48.923 INF] HTTP POST /api/v1/game/tick responded 200 in 4.4ms | cid=56f060b3-b52c-421a-aad4-4a6610669c12 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:49.122 INF] Tick requested with 19 cells | cid=8b55527f-50f0-4a60-95eb-7a4efa026aaa sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:49.131 INF] Tick completed: 19 → 19 cells | cid=8b55527f-50f0-4a60-95eb-7a4efa026aaa sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:49.133 INF] HTTP POST /api/v1/game/tick responded 200 in 11.5ms | cid=8b55527f-50f0-4a60-95eb-7a4efa026aaa sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:49.323 INF] Tick requested with 19 cells | cid=d46f5ebc-f2dc-40d0-80a2-2f0a752c1369 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:49.328 INF] Tick completed: 19 → 19 cells | cid=d46f5ebc-f2dc-40d0-80a2-2f0a752c1369 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:49.330 INF] HTTP POST /api/v1/game/tick responded 200 in 6.5ms | cid=d46f5ebc-f2dc-40d0-80a2-2f0a752c1369 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:50.291 INF] Tick requested with 19 cells | cid=5a505150-e688-45c6-9892-0d2cbaa552da sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:50.295 INF] Tick completed: 19 → 19 cells | cid=5a505150-e688-45c6-9892-0d2cbaa552da sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:50.296 INF] HTTP POST /api/v1/game/tick responded 200 in 5.7ms | cid=5a505150-e688-45c6-9892-0d2cbaa552da sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:51.295 INF] Tick requested with 19 cells | cid=f32462d8-e7c4-448c-96c2-61792df87522 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:51.298 INF] Tick completed: 19 → 19 cells | cid=f32462d8-e7c4-448c-96c2-61792df87522 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:51.300 INF] HTTP POST /api/v1/game/tick responded 200 in 5.1ms | cid=f32462d8-e7c4-448c-96c2-61792df87522 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=35
+[2026-02-22 14:23:52.295 INF] Tick requested with 19 cells | cid=4bda7c26-6b65-4931-80e0-eabcc46cbe3a sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:52.299 INF] Tick completed: 19 → 19 cells | cid=4bda7c26-6b65-4931-80e0-eabcc46cbe3a sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:52.302 INF] HTTP POST /api/v1/game/tick responded 200 in 7.0ms | cid=4bda7c26-6b65-4931-80e0-eabcc46cbe3a sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:53.295 INF] Tick requested with 19 cells | cid=ba28a6bd-0430-467a-8ef6-98a9e8da0caa sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:53.299 INF] Tick completed: 19 → 19 cells | cid=ba28a6bd-0430-467a-8ef6-98a9e8da0caa sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:53.300 INF] HTTP POST /api/v1/game/tick responded 200 in 5.2ms | cid=ba28a6bd-0430-467a-8ef6-98a9e8da0caa sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:54.290 INF] Tick requested with 19 cells | cid=b6b56876-cda1-445d-9867-28d83f859f90 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:54.292 INF] Tick completed: 19 → 19 cells | cid=b6b56876-cda1-445d-9867-28d83f859f90 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:54.294 INF] HTTP POST /api/v1/game/tick responded 200 in 4.6ms | cid=b6b56876-cda1-445d-9867-28d83f859f90 sid=4eaad9f1-e70f-46fa-81d8-6d0395ea0e69 | machine=DESKTOP-DMU2IJG tid=34
+[2026-02-22 14:23:54.822 INF] Application is shutting down... | cid= sid= | machine=DESKTOP-DMU2IJG tid=38
