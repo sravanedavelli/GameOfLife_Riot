@@ -389,7 +389,3 @@ The frontend logger (`src/services/logger.ts`) writes to two sinks simultaneousl
 | Backend `/api/v1/log` | `info`, `warn`, `error` only |
 
 Frontend and backend logs for the same transaction share the same `CorrelationId`, so you can search a single ID in any log viewer (Grafana, Loki, Kibana) to see the full request trace.
-
-### Stopping auto-play on backend failure
-
-If the backend goes down while the simulation is auto-playing, the frontend automatically stops the timer after the first failed request and shows an error message. No further requests are sent until the user manually resumes.
