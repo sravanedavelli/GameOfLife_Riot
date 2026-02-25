@@ -1,6 +1,6 @@
 # Game of Life
 
-A full-stack implementation of Conway's Game of Life with an ASP.NET Core backend and a React/TypeScript frontend. Supports an infinite 64-bit coordinate grid, Life 1.06 file import/export, structured end-to-end logging with correlation ID tracing, and API versioning.
+A full-stack implementation of Conway's Game of Life with an ASP.NET Core backend and a React/TypeScript frontend. Supports an infinite 64-bit coordinate grid, client-side prediction for instant grid feedback, Life 1.06 file import/export, structured end-to-end logging with correlation ID tracing, and API versioning.
 
 ---
 
@@ -122,7 +122,7 @@ GameOfLife/
         │   ├── Controls.tsx               # Play/pause, speed, step, simulate N
         │   └── FileUpload.tsx             # Life 1.06 drag-and-drop upload
         ├── hooks/
-        │   └── useGameOfLife.ts           # All game state, API calls, logging
+        │   └── useGameOfLife.ts           # All game state, API calls, client-side prediction, logging
         ├── services/
         │   ├── api.ts                     # Typed fetch wrappers with correlation IDs
         │   └── logger.ts                  # Structured frontend logger → backend pipeline
@@ -393,3 +393,20 @@ Frontend and backend logs for the same transaction share the same `CorrelationId
 ### Stopping auto-play on backend failure
 
 If the backend goes down while the simulation is auto-playing, the frontend automatically stops the timer after the first failed request and shows an error message. No further requests are sent until the user manually resumes.
+
+---
+
+## Client-Side Prediction
+
+Each step (`stepForward`) applies Conway's rules locally in the browser before the API response arrives, so the grid updates instantly with zero perceived latency.
+
+**How it works:**
+
+1. **Optimistic update** — `computeNextGeneration` runs the full Conway ruleset (birth/survival/death) on the current cell map using BigInt arithmetic and immediately sets the result as the new grid state.
+2. **Parallel API call** — the original (pre-step) cell list is sent to the backend concurrently.
+3. **Reconciliation** — when the server response arrives it overwrites the optimistic state with the authoritative result. In practice the two will always agree; reconciliation exists as a safety net.
+4. **Rollback on error** — if the API call fails, the grid and generation counter are reverted to their pre-step values and auto-play is stopped.
+
+**Why this matters for auto-play:** At high speeds (e.g. 200 ms interval) the round-trip to the backend can exceed the tick interval. The optimistic update ensures the grid always advances visually on schedule, even if the network is slow.
+
+**Scope:** Prediction applies to single-step (`stepForward`) only. Bulk simulation (`simulateN`) cannot be predicted locally because computing N generations of a large pattern in the browser would block the UI thread.

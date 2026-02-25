@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"HBzg51jhXyP90TlfQc4eGGo2VpRVw2vNYxBTO6zON2o=","Source":"GameOfLife.Api","BasePath":"_content/GameOfLife.Api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "Mak5aiYt0oxsbR9cX6OzcwcWPklrQdCVgqeWnDq4b3s=",
+  "Source": "GameOfLife.Api",
+  "BasePath": "_content/GameOfLife.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

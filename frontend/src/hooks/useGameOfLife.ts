@@ -29,6 +29,33 @@ export function validateLife106(content: string): string | null {
     : null;
 }
 
+// Runs Conway's rules locally for optimistic (client-side) prediction.
+// Used by stepForward to update the grid immediately before the API responds.
+function computeNextGeneration(cellMap: Map<string, Cell>): Map<string, Cell> {
+  const neighborCounts = new Map<string, { coord: Cell; count: number }>();
+
+  for (const [x, y] of cellMap.values()) {
+    for (let dx = -1n; dx <= 1n; dx++) {
+      for (let dy = -1n; dy <= 1n; dy++) {
+        if (dx === 0n && dy === 0n) continue;
+        const nx = x + dx, ny = y + dy;
+        const key = `${nx},${ny}`;
+        const entry = neighborCounts.get(key);
+        if (entry) entry.count++;
+        else neighborCounts.set(key, { coord: [nx, ny], count: 1 });
+      }
+    }
+  }
+
+  const next = new Map<string, Cell>();
+  for (const [key, { coord, count }] of neighborCounts) {
+    const alive = cellMap.has(key);
+    if (alive && (count === 2 || count === 3)) next.set(key, coord); // survival
+    else if (!alive && count === 3) next.set(key, coord);            // birth
+  }
+  return next;
+}
+
 export function useGameOfLife() {
   // Internal state: Map for O(1) lookup by "x,y" key.
   const [cellMap, setCellMap] = useState<Map<string, Cell>>(new Map());
@@ -69,20 +96,30 @@ export function useGameOfLife() {
   const stepForward = useCallback(async () => {
     if (cellMap.size === 0) return;
     if (loadingRef.current) return;
+
+    // Optimistically apply Conway's rules locally so the grid updates immediately,
+    // before the authoritative API response arrives.
+    const snapshotMap = cellMap;
+    setCellMap(computeNextGeneration(cellMap));
+    setGeneration((g) => g + 1);
+
     loadingRef.current = true;
     setLoading(true);
     setError(null);
     const myId = ++requestIdRef.current;
     try {
-      const result = await api.tick(Array.from(cellMap.values()));
+      const result = await api.tick(Array.from(snapshotMap.values()));
       if (myId !== requestIdRef.current) return; // cancelled by reset or load
-      logger.debug('Tick completed', { inputCells: cellMap.size, outputCells: result.cells.length }, result.correlationId);
+      logger.debug('Tick completed', { inputCells: snapshotMap.size, outputCells: result.cells.length }, result.correlationId);
+      // Reconcile: overwrite the optimistic state with the authoritative server result.
       setCellsFromArray(result.cells);
-      setGeneration((g) => g + 1);
     } catch (e) {
       if (myId !== requestIdRef.current) return;
       const msg = e instanceof Error ? e.message : String(e);
-      logger.error('Tick failed', { error: msg, cellCount: cellMap.size });
+      logger.error('Tick failed', { error: msg, cellCount: snapshotMap.size });
+      // Roll back the optimistic update.
+      setCellMap(snapshotMap);
+      setGeneration((g) => g - 1);
       setError(
         `Step failed: ${msg}. Auto-play has been stopped; try Reset or Load File if the backend was restarted.`
       );
@@ -95,7 +132,7 @@ export function useGameOfLife() {
         setLoading(false);
       }
     }
-  }, [cellMap, setCellsFromArray]);
+  }, [cellMap, setCellsFromArray, stopInterval]);
 
   useEffect(() => {
     stepForwardRef.current = stepForward;

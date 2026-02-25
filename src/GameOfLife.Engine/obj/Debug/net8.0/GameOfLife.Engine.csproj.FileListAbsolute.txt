@@ -21,3 +21,15 @@ C:\RiotGames\GameOfLife\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine
 C:\RiotGames\GameOfLife\src\GameOfLife.Engine\obj\Debug\net8.0\refint\GameOfLife.Engine.dll
 C:\RiotGames\GameOfLife\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.pdb
 C:\RiotGames\GameOfLife\src\GameOfLife.Engine\obj\Debug\net8.0\ref\GameOfLife.Engine.dll
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\bin\Debug\net8.0\GameOfLife.Engine.deps.json
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\bin\Debug\net8.0\GameOfLife.Engine.dll
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\bin\Debug\net8.0\GameOfLife.Engine.pdb
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.AssemblyInfoInputs.cache
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.AssemblyInfo.cs
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.csproj.CoreCompileInputs.cache
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.sourcelink.json
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.dll
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\refint\GameOfLife.Engine.dll
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\GameOfLife.Engine.pdb
+C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLife.Engine\obj\Debug\net8.0\ref\GameOfLife.Engine.dll
