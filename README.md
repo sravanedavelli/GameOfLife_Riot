@@ -18,6 +18,9 @@ A full-stack implementation of Conway's Game of Life with an ASP.NET Core backen
 - [Logging](#logging)
 
 ---
+## Final Output
+<img width="1911" height="934" alt="image" src="https://github.com/user-attachments/assets/03a5a398-4b58-4161-8bab-98f5527afcf4" />
+
 
 ## Architecture Overview
 
@@ -389,6 +392,7 @@ The frontend logger (`src/services/logger.ts`) writes to two sinks simultaneousl
 | Backend `/api/v1/log` | `info`, `warn`, `error` only |
 
 Frontend and backend logs for the same transaction share the same `CorrelationId`, so you can search a single ID in any log viewer (Grafana, Loki, Kibana) to see the full request trace.
+<<<<<<< HEAD
 
 ### Stopping auto-play on backend failure
 
@@ -410,3 +414,5 @@ Each step (`stepForward`) applies Conway's rules locally in the browser before t
 **Why this matters for auto-play:** At high speeds (e.g. 200 ms interval) the round-trip to the backend can exceed the tick interval. The optimistic update ensures the grid always advances visually on schedule, even if the network is slow.
 
 **Scope:** Prediction applies to single-step (`stepForward`) only. Bulk simulation (`simulateN`) cannot be predicted locally because computing N generations of a large pattern in the browser would block the UI thread.
+=======
+>>>>>>> 8d86f6c31a4d2d367c839f77bd92e2a38eec2eab
