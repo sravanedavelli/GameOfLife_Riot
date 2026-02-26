@@ -28,7 +28,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
     {
         var request = new TickRequest { Cells = Cells((0, -1), (0, 0), (0, 1)) };
 
-        var response = await _client.PostAsJsonAsync("/api/game/tick", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/tick", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -50,7 +50,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Generations = 10
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -72,7 +72,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Generations = 0
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
@@ -86,7 +86,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Generations = 1
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -105,7 +105,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Generations = 1
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -122,7 +122,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Content = "#Life 1.06\n0 1\n1 2\n2 0\n2 1\n2 2\n"
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/parse", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/parse", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -135,7 +135,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
     {
         var request = new ExportRequest { Cells = Cells((0, 0), (1, 1)) };
 
-        var response = await _client.PostAsJsonAsync("/api/game/export", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/export", request);
         response.EnsureSuccessStatusCode();
 
         Assert.Equal("text/plain", response.Content.Headers.ContentType?.MediaType);
@@ -153,7 +153,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
     {
         var request = new TickRequest { Cells = Array.Empty<string[]>() };
 
-        var response = await _client.PostAsJsonAsync("/api/game/tick", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/tick", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -169,18 +169,18 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Content = "#Life 1.06\n0 1\n1 2\n2 0\n2 1\n2 2\n"
         };
 
-        var parseResponse = await _client.PostAsJsonAsync("/api/game/parse", parseRequest);
+        var parseResponse = await _client.PostAsJsonAsync("/api/v1/game/parse", parseRequest);
         var parsed = await parseResponse.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
         Assert.NotNull(parsed);
 
         var simRequest = new SimulationRequest { Cells = parsed.Cells, Generations = 10 };
 
-        var simResponse = await _client.PostAsJsonAsync("/api/game/simulate", simRequest);
+        var simResponse = await _client.PostAsJsonAsync("/api/v1/game/simulate", simRequest);
         var simulated = await simResponse.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
         Assert.NotNull(simulated);
 
         var exportRequest = new ExportRequest { Cells = simulated.Cells };
-        var exportResponse = await _client.PostAsJsonAsync("/api/game/export", exportRequest);
+        var exportResponse = await _client.PostAsJsonAsync("/api/v1/game/export", exportRequest);
         var exported = await exportResponse.Content.ReadAsStringAsync();
 
         Assert.StartsWith("#Life 1.06", exported.Trim());
@@ -195,7 +195,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             .ToArray();
 
         var request = new TickRequest { Cells = cells };
-        var response = await _client.PostAsJsonAsync("/api/game/tick", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/tick", request);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
@@ -207,7 +207,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             .ToArray();
 
         var request = new SimulationRequest { Cells = cells, Generations = 1 };
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
@@ -220,7 +220,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             System.Text.Encoding.UTF8,
             "application/json");
 
-        var response = await _client.PostAsync("/api/game/tick", content);
+        var response = await _client.PostAsync("/api/v1/game/tick", content);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
@@ -232,7 +232,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             System.Text.Encoding.UTF8,
             "application/json");
 
-        var response = await _client.PostAsync("/api/game/tick", content);
+        var response = await _client.PostAsync("/api/v1/game/tick", content);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
@@ -245,7 +245,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Generations = 1001
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
@@ -259,7 +259,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Generations = 1000
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/simulate", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/simulate", request);
         response.EnsureSuccessStatusCode();
 
         var result = await response.Content.ReadFromJsonAsync<SimulationResponse>(_jsonOptions);
@@ -276,7 +276,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
             Content = "#Life 1.06\n0 1\n9223372036854775898 0\n1 2\n"
         };
 
-        var response = await _client.PostAsJsonAsync("/api/game/parse", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/parse", request);
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
 
         var body = await response.Content.ReadAsStringAsync();
@@ -288,7 +288,7 @@ public class GameControllerTests : IClassFixture<WebApplicationFactory<Program>>
     {
         var request = new ExportRequest { Cells = Array.Empty<string[]>() };
 
-        var response = await _client.PostAsJsonAsync("/api/game/export", request);
+        var response = await _client.PostAsJsonAsync("/api/v1/game/export", request);
         response.EnsureSuccessStatusCode();
 
         Assert.Equal("text/plain", response.Content.Headers.ContentType?.MediaType);

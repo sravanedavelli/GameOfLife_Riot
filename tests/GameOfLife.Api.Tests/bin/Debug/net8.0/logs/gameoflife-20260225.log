@@ -1,0 +1,104 @@
+[2026-02-25 21:02:17.672 INF] HTTP POST /api/game/simulate responded 404 in 1.3ms | cid=0HNJKUGRFBAA8 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:02:18.509 INF] HTTP POST /api/game/simulate responded 404 in 0.1ms | cid=0HNJKUGRFBAA9 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:02:18.519 INF] HTTP POST /api/game/simulate responded 404 in 0.0ms | cid=0HNJKUGRFBAAA sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.943 INF] HTTP POST /api/game/tick responded 404 in 0.0ms | cid=0HNJKUGRFBAAB sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.946 INF] HTTP POST /api/game/tick responded 404 in 0.0ms | cid=0HNJKUGRFBAAC sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.971 INF] HTTP POST /api/game/parse responded 404 in 0.0ms | cid=0HNJKUGRFBAAD sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.975 INF] HTTP POST /api/game/export responded 404 in 0.0ms | cid=0HNJKUGRFBAAE sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.977 INF] HTTP POST /api/game/tick responded 404 in 0.0ms | cid=0HNJKUGRFBAAF sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.979 INF] HTTP POST /api/game/tick responded 404 in 0.0ms | cid=0HNJKUGRFBAAG sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.982 INF] HTTP POST /api/game/simulate responded 404 in 0.0ms | cid=0HNJKUGRFBAAH sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.984 INF] HTTP POST /api/game/export responded 404 in 0.0ms | cid=0HNJKUGRFBAAI sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:18.986 INF] HTTP POST /api/game/parse responded 404 in 0.0ms | cid=0HNJKUGRFBAAJ sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:19.000 INF] HTTP POST /api/game/simulate responded 404 in 0.0ms | cid=0HNJKUGRFBAAK sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:19.002 INF] HTTP POST /api/game/simulate responded 404 in 0.0ms | cid=0HNJKUGRFBAAL sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:19.004 INF] HTTP POST /api/game/tick responded 404 in 0.0ms | cid=0HNJKUGRFBAAM sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:19.008 INF] HTTP POST /api/game/simulate responded 404 in 0.0ms | cid=0HNJKUGRFBAAN sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:02:19.010 INF] HTTP POST /api/game/parse responded 404 in 0.0ms | cid=0HNJKUGRFBAAO sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:28.276 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=8
+[2026-02-25 21:03:28.363 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6J5 sid=unknown | machine=ARG1033 tid=8
+[2026-02-25 21:03:28.415 INF] Simulate requested: 3 cells × 10 generations | cid=0HNJKUHGGF6J5 sid=unknown | machine=ARG1033 tid=8
+[2026-02-25 21:03:28.424 INF] Simulate completed: 3 → 3 cells after 10 generations | cid=0HNJKUHGGF6J5 sid=unknown | machine=ARG1033 tid=8
+[2026-02-25 21:03:28.444 INF] HTTP POST /api/v1/game/simulate responded 200 in 123.3ms | cid=0HNJKUHGGF6J5 sid=unknown | machine=ARG1033 tid=8
+[2026-02-25 21:03:29.460 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:29.461 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6J6 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:31.132 INF] HTTP POST /api/v1/game/simulate responded 400 in 1671.3ms | cid=0HNJKUHGGF6J6 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:31.137 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=34
+[2026-02-25 21:03:31.139 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6J7 sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:31.142 INF] HTTP POST /api/v1/game/simulate responded 400 in 2.9ms | cid=0HNJKUHGGF6J7 sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:31.461 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:31.487 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6J8 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.627 INF] HTTP POST /api/v1/game/tick responded 400 in 1165.2ms | cid=0HNJKUHGGF6J8 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.629 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.629 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6J9 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.630 INF] Tick requested with 0 cells | cid=0HNJKUHGGF6J9 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.631 INF] Tick completed: 0 → 0 cells | cid=0HNJKUHGGF6J9 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.631 INF] HTTP POST /api/v1/game/tick responded 200 in 1.7ms | cid=0HNJKUHGGF6J9 sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.637 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.640 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JA sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.642 INF] Parse requested: 41 chars | cid=0HNJKUHGGF6JA sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.643 WRN] Parse rejected: 1 line(s) with invalid or out-of-range coordinates | cid=0HNJKUHGGF6JA sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.644 INF] HTTP POST /api/v1/game/parse responded 400 in 6.5ms | cid=0HNJKUHGGF6JA sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.647 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.648 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JB sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.650 INF] Export requested: 0 cells | cid=0HNJKUHGGF6JB sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.651 INF] Export completed: 0 cells serialized | cid=0HNJKUHGGF6JB sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.693 INF] HTTP POST /api/v1/game/export responded 200 in 45.5ms | cid=0HNJKUHGGF6JB sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.695 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.696 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JC sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.696 INF] Tick requested with 1 cells | cid=0HNJKUHGGF6JC sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.696 WRN] Tick rejected: invalid cell data — Cell at index 0 has a non-integer coordinate. | cid=0HNJKUHGGF6JC sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.696 INF] HTTP POST /api/v1/game/tick responded 400 in 1.0ms | cid=0HNJKUHGGF6JC sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.698 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.698 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JD sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.698 INF] Tick requested with 1 cells | cid=0HNJKUHGGF6JD sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.699 WRN] Tick rejected: invalid cell data — Cell at index 0 must have exactly 2 coordinates, got 3. | cid=0HNJKUHGGF6JD sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.699 INF] HTTP POST /api/v1/game/tick responded 400 in 0.7ms | cid=0HNJKUHGGF6JD sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.700 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.701 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JE sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.701 INF] Simulate requested: 3 cells × 1 generations | cid=0HNJKUHGGF6JE sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.701 INF] Simulate completed: 3 → 4 cells after 1 generations | cid=0HNJKUHGGF6JE sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.702 INF] HTTP POST /api/v1/game/simulate responded 200 in 1.2ms | cid=0HNJKUHGGF6JE sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.704 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.705 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JF sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.705 INF] Export requested: 2 cells | cid=0HNJKUHGGF6JF sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.705 INF] Export completed: 2 cells serialized | cid=0HNJKUHGGF6JF sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.706 INF] HTTP POST /api/v1/game/export responded 200 in 1.2ms | cid=0HNJKUHGGF6JF sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.725 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.725 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JG sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.725 INF] Parse requested: 31 chars | cid=0HNJKUHGGF6JG sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.726 INF] Parse completed: 5 cells loaded | cid=0HNJKUHGGF6JG sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.726 INF] HTTP POST /api/v1/game/parse responded 200 in 0.9ms | cid=0HNJKUHGGF6JG sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.727 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.727 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JH sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.727 INF] Simulate requested: 5 cells × 10 generations | cid=0HNJKUHGGF6JH sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.727 INF] Simulate completed: 5 → 5 cells after 10 generations | cid=0HNJKUHGGF6JH sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.727 INF] HTTP POST /api/v1/game/simulate responded 200 in 0.7ms | cid=0HNJKUHGGF6JH sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.728 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.728 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JI sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.728 INF] Export requested: 5 cells | cid=0HNJKUHGGF6JI sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.728 INF] Export completed: 5 cells serialized | cid=0HNJKUHGGF6JI sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.729 INF] HTTP POST /api/v1/game/export responded 200 in 0.5ms | cid=0HNJKUHGGF6JI sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.730 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.730 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JJ sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.731 INF] HTTP POST /api/v1/game/simulate responded 400 in 0.4ms | cid=0HNJKUHGGF6JJ sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.733 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.733 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JK sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.733 INF] Simulate requested: 1 cells × 1 generations | cid=0HNJKUHGGF6JK sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.733 INF] Simulate completed: 1 → 0 cells after 1 generations | cid=0HNJKUHGGF6JK sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.734 INF] HTTP POST /api/v1/game/simulate responded 200 in 0.7ms | cid=0HNJKUHGGF6JK sid=unknown | machine=ARG1033 tid=11
+[2026-02-25 21:03:32.736 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.736 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JL sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.737 INF] Tick requested with 3 cells | cid=0HNJKUHGGF6JL sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.737 INF] Tick completed: 3 → 3 cells | cid=0HNJKUHGGF6JL sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.737 INF] HTTP POST /api/v1/game/tick responded 200 in 0.7ms | cid=0HNJKUHGGF6JL sid=unknown | machine=ARG1033 tid=34
+[2026-02-25 21:03:32.739 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.739 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JM sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.740 INF] Simulate requested: 3 cells × 1000 generations | cid=0HNJKUHGGF6JM sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.750 INF] Simulate completed: 3 → 3 cells after 1000 generations | cid=0HNJKUHGGF6JM sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.750 INF] HTTP POST /api/v1/game/simulate responded 200 in 11.0ms | cid=0HNJKUHGGF6JM sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.753 WRN] A request body size limit could not be applied. This server does not support the IHttpMaxRequestBodySizeFeature. | cid= sid= | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.753 WRN] A request body size limit could not be applied. This server does not support the IHttpRequestBodySizeFeature. | cid=0HNJKUHGGF6JN sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.753 INF] Parse requested: 31 chars | cid=0HNJKUHGGF6JN sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.754 INF] Parse completed: 5 cells loaded | cid=0HNJKUHGGF6JN sid=unknown | machine=ARG1033 tid=15
+[2026-02-25 21:03:32.754 INF] HTTP POST /api/v1/game/parse responded 200 in 0.7ms | cid=0HNJKUHGGF6JN sid=unknown | machine=ARG1033 tid=15

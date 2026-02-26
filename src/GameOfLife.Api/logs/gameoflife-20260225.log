@@ -1,0 +1,5 @@
+[2026-02-25 21:00:17.054 INF] Now listening on: http://localhost:5290 | cid= sid= | machine=ARG1033 tid=1
+[2026-02-25 21:00:17.101 INF] Application started. Press Ctrl+C to shut down. | cid= sid= | machine=ARG1033 tid=1
+[2026-02-25 21:00:17.104 INF] Hosting environment: Development | cid= sid= | machine=ARG1033 tid=1
+[2026-02-25 21:00:17.106 INF] Content root path: C:\RiotGameOfLife-master\RiotGameOfLife-master\src\GameOfLIfe.Api | cid= sid= | machine=ARG1033 tid=1
+[2026-02-25 21:01:22.062 INF] Application is shutting down... | cid= sid= | machine=ARG1033 tid=13
